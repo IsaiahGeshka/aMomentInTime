@@ -21,7 +21,7 @@ if ( currentHour < 12 ) {
     return chalk.underline.blue('Good afternoon');
   } else {
     // After 6PM
-    return chalk.italic.yellowgreen('Good evening');
+    return chalk.italic.red('Good evening');
   }
 }
 console.log(greetText(moment));
